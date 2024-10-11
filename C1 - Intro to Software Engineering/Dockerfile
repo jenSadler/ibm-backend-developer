@@ -11,7 +11,7 @@ ENV FLASK_ENV=development
 
 COPY src/ .
 
-EXPOSE 5000
+EXPOSE 8000
 
 # Use python to run your app (no need to invoke livereload directly)
 CMD ["python", "app.py"]

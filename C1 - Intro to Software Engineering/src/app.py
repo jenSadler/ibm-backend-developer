@@ -20,4 +20,4 @@ if __name__ == '__main__':
     server = Server(app.wsgi_app)
     server.watch('functions.py')  # Watch for Python file changes
     server.watch('templates/*.html')  # Watch for changes in HTML templates
-    server.serve(host='0.0.0.0', port=5000, liveport="3000", debug=True)
+    server.serve(host='0.0.0.0', port=8000, liveport="3000", debug=True)
