@@ -1,0 +1,42 @@
+What is the company name that is advertising the job? 
+McGill University
+
+What is the job title of the role?
+Software Developer
+
+What is the expected salary range for the role? 
+$70,820–$88,530 a year
+
+Where is the role located? 
+Montreal
+
+What is the URL of the job post? 
+https://ca.indeed.com/viewjob?jk=fdffdc0fcb1f3618&tk=1i9uivj09k8ik8d9&from=serp&vjs=3
+
+What search term(s) did you use to find the job post? 
+Software Developer montreal
+
+How many total results were returned for that search? 
+700+
+
+List 2 required skills for this job. 
+- Experience with web development technologies such as HTML, CSS, JavaScript, and RESTful services.
+- Basic knowledge of version control systems (e.g., Git).
+
+Describe the expected education and experience required to apply for this job.
+Bachelor’s degree in Computer Science, Information Technology, or a related field and three-year post-secondary program with a concentration in computer science or related computer technology. Consideration will be given to an equivalent combination of education and experience.
+
+Provide a reason as to why this particular job is of interest to you and provide details from the post that highlight your interest. 
+I'd like to work in higher education, and front end development is appealing to me.
+
+List two hard skills required for the job that you don’t already have or would like to improve on. 
+- Basic to Advanced understanding of Oracle APEX and PL/SQL.
+- Familiarity with SQL and database concepts.
+
+Name two soft skills that would be helpful to have if you were hired for this role. 
+- Analytical and problem-solving skills to arrive at the most efficient solutions under pressure while meeting deadlines.
+- Ability to analyze and evaluate information with respect to solving database, web application problems and paying attention to detail.
+
+State at least two ideas or concepts you learned about in this course that are relevant to this job post. 
+- Front End development
+- Back End Development
