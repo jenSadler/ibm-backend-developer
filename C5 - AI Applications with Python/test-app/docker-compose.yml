@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  flask-backend:
+    build:
+      context: ./flask-app
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=src/app.py
+    networks:
+      - app-network
+
+  react-frontend:
+    build:
+      context: ./react-app
+      args:
+        VITE_API_URL: "http://localhost:8000/api"
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
