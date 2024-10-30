@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  flask-backend:
+    build:
+      context: ./flask-app
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=src/app.py
