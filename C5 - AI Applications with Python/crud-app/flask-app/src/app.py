@@ -60,6 +60,8 @@ def delete_transaction(transaction_id):
 
     return redirect(url_for("get_transactions"))
 
+
+
 # Run the Flask app
     if __name__ == "__main__":
         app.run(debug=True)
