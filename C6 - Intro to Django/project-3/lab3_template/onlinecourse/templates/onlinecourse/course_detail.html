@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'onlinecourse/course.css' %}">
+
+</head>
+<body>
+<!-- Add your template there -->
+<div class="card">
+    <img src="{{ MEDIA_URL }}/{{ course.image }}" width="360" height="360" >
+    <h2>{{ course.name }}</h2>
+    <p>{{ course.description }}</p>
+</div>
+    <h2>Lessons: </h2>
+    {% for lesson in course.lesson_set.all %}
+         <div>
+              <h3>{{lesson.title}}<!--<HINT>add `order` variable  --> <!--<HINT>add `title` variable  --></h3>
+              <p>{{lesson.content}}<!--<HINT>add `content` variable  --></p>
+         </div>
+    {% endfor %}
+
+</body>
+</html>
