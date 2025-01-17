@@ -8,8 +8,10 @@ urlpatterns = [
     # Add path here
     path(route='', view=views.CourseListView.as_view(), name='popular_course_list'),
     path('course/<int:pk>/enroll/', view=views.EnrollView.as_view(), name='enroll'),
-    path('course/<int:pk>/',view=views.CourseDetailsView.as_view(), name='course_details')
-
+    path('course/<int:pk>/',view=views.CourseDetailsView.as_view(), name='course_details'),
+    path('logout/', views.logout_request, name='logout'),
+    path('login/', views.login_request, name='login'),
+        path('registration/', views.registration_request, name='registration'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\
  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
